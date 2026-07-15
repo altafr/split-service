@@ -1,0 +1,16 @@
+{
+  "name": "split-service",
+  "version": "1.0.0",
+  "description": "A small bill-splitting service used for the Codex workshop.",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env TZ=America/New_York vitest run",
+    "test:watch": "cross-env TZ=America/New_York vitest",
+    "build": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}

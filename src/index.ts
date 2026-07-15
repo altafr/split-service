@@ -1,0 +1,1 @@
+export { splitBill } from './split';
